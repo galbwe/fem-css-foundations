@@ -1,0 +1,34 @@
+:root {
+  --color-primary: #ff7b54;
+  --color-text-on-primary: #fff;
+  --font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 34px;
+  grid-template-rows: 1fr;
+  align-items: center;
+  grid-template-areas: "logo nav shopping-cart";
+  padding: 0 60px;
+}
+
+.header__link {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.nav {
+  display: inline-block;
+  justify-self: end;
+  font-size: 20px;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__list-item {
+  margin-inline-end: 36px;
+}
