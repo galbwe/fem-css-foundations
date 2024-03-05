@@ -2,6 +2,10 @@
   --color-primary: #ff7b54;
   --color-text-on-primary: #fff;
   --font-family: "Inter", sans-serif;
+  --button-background-color: var(--color-text-on-primary);
+  --button-text-color: var(--color-primary);
+  --secondary-button-background-color: var(--color-primary);
+  --secondary-button-text-color: var(--color-text-on-primary);
 }
 
 .header {
@@ -31,4 +35,14 @@
 
 .nav__list-item {
   margin-inline-end: 36px;
+}
+
+.button {
+  height: 100px;
+  width: 360px;
+  font-size: 32px;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
 }

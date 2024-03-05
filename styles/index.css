@@ -11,3 +11,40 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+
+.main {
+  padding: 100px 150px;
+}
+
+.main__heading {
+  font-size: 128px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.main__subheading {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.main__buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main__buttons .button {
+  margin-right: 20px;
+}
+
+.button {
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+}
+
+.button--secondary {
+  background-color: var(--secondary-button-background-color);
+  color: var(--secondary-button-text-color);
+  border: 4px solid var(--secondary-button-text-color);
+}
