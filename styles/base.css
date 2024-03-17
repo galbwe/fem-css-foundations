@@ -79,3 +79,26 @@ p {
 .nav__list-item {
   margin-inline-end: 36px;
 }
+
+.main {
+  padding: 150px;
+}
+
+.main__heading {
+  font-size: 128px;
+  font-weight: bold;
+}
+
+.main__subheading {
+  font-size: 40px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+}

@@ -1,0 +1,39 @@
+@import "./base.css";
+
+body {
+  background-color: var(--color-text-on-primary);
+  color: var(--color-primary);
+}
+
+.speaker-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: column;
+  max-width: 565px;
+  margin-bottom: 100px;
+}
+
+.speaker__image {
+  max-height: 310px;
+  max-width: 310px;
+  height: auto;
+  width: auto;
+
+  margin-bottom: 36px;
+}
+
+.speaker__header {
+  margin-bottom: 20px;
+}
+
+.speaker__company {
+  margin-bottom: 32px;
+}
+
+.speaker__description {
+  width: 80%;
+}
